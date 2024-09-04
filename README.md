@@ -5,12 +5,12 @@
 
 API gerador de citações aleatórias. Foi desenvolvido para ser consumido no projeto [random-quote](https://github.com/poldosantiago/random-quote).
 
-Para conferir o resultado, clique [aqui](https://random-quote-cyan.vercel.app/).
+Para conferir o resultado, clique [aqui](https://random-quote-eight-iota.vercel.app/).
 
 # Como usar?
 
-- [quotes/listar](https://random-quote-back-ojznqwpxl-poldosantiagos-projects.vercel.app/quotes/listar) - lista todas as citações
-- [quotes/aleatoria](https://random-quote-back-ojznqwpxl-poldosantiagos-projects.vercel.app/quotes/aleatoria) - retorna uma citação aleatória.
+- [quotes/listar](https://random-quote-back.vercel.app/quotes/listar) - lista todas as citações
+- [quotes/aleatoria](https://random-quote-back.vercel.app/quotes/aleatoria) - retorna uma citação aleatória.
 
 
 # Referências
