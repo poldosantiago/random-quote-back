@@ -3,20 +3,17 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const fs_1 = __importDefault(require("fs"));
-const JSONParse_1 = __importDefault(require("../utils/JSONParse"));
-const json = fs_1.default.readFileSync('./dist/json/dados.json', "utf-8");
-const quotes = (0, JSONParse_1.default)(json); //a forma segura de converter o json em objeto
+const quotes_1 = __importDefault(require("../share/quotes"));
 class QuotesController {
     static testar(req, res) {
         res.status(200).json({ teste: 'testando...' });
     }
     static listarCitacoes(req, res) {
-        res.status(200).json(quotes);
+        res.status(200).json(quotes_1.default);
     }
     static lerCitacaoAleatoria(req, res) {
-        const numeroAleatorio = Math.trunc(quotes.length * Math.random());
-        res.status(200).json(quotes[numeroAleatorio]);
+        const numeroAleatorio = Math.trunc(quotes_1.default.length * Math.random());
+        res.status(200).json(quotes_1.default[numeroAleatorio]);
     }
 }
 exports.default = QuotesController;

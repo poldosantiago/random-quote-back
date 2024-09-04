@@ -4,8 +4,8 @@
   "description": "",
   "main": "servidor.js",
   "scripts": {
-    "start": "node dist/app/server.js",
-    "dev": "supervisor dist/app/server.js",
+    "start": "node dist/server.js",
+    "dev": "supervisor dist/server.js",
     "type": "tsc -w"
   },
   "keywords": [],

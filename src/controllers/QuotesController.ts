@@ -1,10 +1,6 @@
-import fs from 'fs';
 import { Request, Response } from 'express';
-import JSONParse from '../utils/JSONParse';
-import Quotes from '../share/Quotes';
+import quotes from '../share/quotes';
 
-const json = fs.readFileSync('./dist/json/dados.json', "utf-8");
-const quotes = JSONParse<Quotes[]>(json); //a forma segura de converter o json em objeto
 
 class QuotesController{
     static testar(req: Request, res: Response){
