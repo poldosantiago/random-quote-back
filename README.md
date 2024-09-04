@@ -9,8 +9,8 @@ Para conferir o resultado, clique [aqui](https://random-quote-cyan.vercel.app/).
 
 # Como usar?
 
-- [http://localhost:3000/quotes/listar](http://localhost:3000/quotes/listar) - lista todas as citações
-- [http://localhost:3000/quotes/aleatoria](http://localhost:3000/quotes/) - retorna uma citação aleatória.
+- [quotes/listar](https://random-quote-back-ojznqwpxl-poldosantiagos-projects.vercel.app/quotes/listar) - lista todas as citações
+- [quotes/aleatoria](https://random-quote-back-ojznqwpxl-poldosantiagos-projects.vercel.app/quotes/aleatoria) - retorna uma citação aleatória.
 
 
 # Referências
