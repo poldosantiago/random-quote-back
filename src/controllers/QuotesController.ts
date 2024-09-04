@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import JSONParse from '../utils/JSONParse';
 import Quotes from '../share/Quotes';
 
-const json = fs.readFileSync('./json/dados.json', "utf-8");
+const json = fs.readFileSync('./dist/json/dados.json', "utf-8");
 const quotes = JSONParse<Quotes[]>(json); //a forma segura de converter o json em objeto
 
 class QuotesController{
