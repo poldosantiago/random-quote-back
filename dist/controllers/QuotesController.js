@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 const JSONParse_1 = __importDefault(require("../utils/JSONParse"));
-const json = fs_1.default.readFileSync('./dist/json/dados.json', "utf-8");
+const json = fs_1.default.readFileSync('./json/dados.json', "utf-8");
 const quotes = (0, JSONParse_1.default)(json); //a forma segura de converter o json em objeto
 class QuotesController {
     static testar(req, res) {
